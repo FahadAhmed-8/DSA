@@ -1,0 +1,4 @@
+N Queens
+Sukodo
+M Colouring
+Rat in a maze

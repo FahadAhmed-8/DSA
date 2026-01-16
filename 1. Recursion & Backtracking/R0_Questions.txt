@@ -1,0 +1,120 @@
+================================================================================
+                        RECURSION & BACKTRACKING PROBLEM SET
+================================================================================
+
+Description: 
+This file contains a comprehensive list of recursion and backtracking problems 
+ranging from basic recursion to advanced patterns like subset sums, permutations, 
+and partitioning.
+
+Language Focus: C++
+
+--------------------------------------------------------------------------------
+SECTION 1: BASIC RECURSION
+--------------------------------------------------------------------------------
+1.  Print Name (1 to N)
+    Write a recursive function to print your name n times. The output should 
+    start from 1 and go up to n.
+
+2.  Print Name (N to 1)
+    Write a recursive function to print your name n times in reverse order. 
+    The output should start from n and go down to 1.
+
+--------------------------------------------------------------------------------
+SECTION 2: SUMS AND FACTORIALS (FUNCTIONAL VS PARAMETERIZED)
+--------------------------------------------------------------------------------
+3.  Sum of First N Numbers (Functional)
+    Write a recursive function that returns the sum of the first n natural numbers.
+
+4.  Sum of First N Numbers (Parameterized)
+    Write a parameterized recursive function (void return type) that calculates 
+    and prints the sum of numbers from 1 to n.
+
+5.  Factorial of N (Functional)
+    Write a recursive function that returns the factorial of n.
+
+6.  Factorial of N (Parameterized)
+    Write a parameterized recursive function that calculates and prints the 
+    factorial of n.
+
+--------------------------------------------------------------------------------
+SECTION 3: ARRAYS AND STRINGS
+--------------------------------------------------------------------------------
+7.  Reverse an Array
+    Write a recursive function to reverse an array in place (using two pointers 
+    concept recursively).
+
+8.  Check Palindrome
+    Write a recursive function to check if a given string is a palindrome.
+
+--------------------------------------------------------------------------------
+SECTION 4: MULTIPLE RECURSION CALLS
+--------------------------------------------------------------------------------
+9.  Nth Fibonacci Number
+    Write a recursive function to find the nth Fibonacci number.
+
+--------------------------------------------------------------------------------
+SECTION 5: SUBSEQUENCES (PICK / NOT-PICK PATTERN)
+--------------------------------------------------------------------------------
+10. Print All Subsequences
+    Write a recursive function to print all possible subsequences of an array.
+
+11. Print Subsequences with Sum K
+    Find and print every subsequence of a given array whose elements sum up to 
+    a specific target value 'k'.
+
+12. Print Any One Subsequence with Sum K
+    Modify the previous solution to find and print only the first subsequence 
+    that meets the sum 'k' condition, then stop execution.
+
+13. Count Subsequences with Sum K
+    Instead of printing the subsequences, write a function that returns the 
+    total count of subsequences whose elements sum up to 'k'.
+
+--------------------------------------------------------------------------------
+SECTION 6: SORTING ALGORITHMS
+--------------------------------------------------------------------------------
+14. Merge Sort
+    Implement the Merge Sort algorithm using recursion.
+
+15. Quick Sort
+    Implement the Quick Sort algorithm using recursion.
+
+--------------------------------------------------------------------------------
+SECTION 7: COMBINATIONS AND SUBSETS
+--------------------------------------------------------------------------------
+16. Combination Sum I
+    Given an array of distinct integers and a target, find all unique combinations 
+    where the chosen numbers sum to the target. The same number may be chosen 
+    an unlimited number of times.
+
+17. Combination Sum II
+    Given a collection of candidate numbers and a target, find all unique 
+    combinations where the candidate numbers sum to the target. Each number 
+    in the array may only be used once in the combination.
+
+18. Subset Sum I
+    Given a list of integers, print the sums of all possible subsets in 
+    increasing order.
+
+19. Subset Sum II
+    Given an integer array that may contain duplicates, return all possible 
+    subsets (the power set). The solution set must not contain duplicate subsets.
+
+--------------------------------------------------------------------------------
+SECTION 8: PERMUTATIONS AND PARTITIONING
+--------------------------------------------------------------------------------
+20. Permutations (Using Frequency Array/Map)
+    Generate all permutations of an array using an extra data structure (map 
+    or boolean array) to track visited elements.
+
+21. Permutations (Using Swapping)
+    Generate all permutations of an array strictly using swapping (no extra 
+    space for a map).
+
+22. K-th Permutation Sequence
+    Given n and k, return the kth permutation sequence of the set [1, 2, ..., n].
+
+23. Palindrome Partitioning
+    Given a string s, partition s such that every substring of the partition 
+    is a palindrome. Return all possible palindrome partitioning of s.
